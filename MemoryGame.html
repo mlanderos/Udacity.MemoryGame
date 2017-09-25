@@ -7,6 +7,7 @@
         UdacityMemoryGame
     </title>
 </head>
+<body>
 <div class="gametitle">
     <h1>Matching Game</h1>
 </div>
@@ -16,14 +17,13 @@
 
 <div class="gamebackground">
     <div class="container">
-        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
+        <div class="flip-container">
+            <div class="flipper" id="flipme">
                 <div class="front">
-                    <!-- intended to be empty -->
+                    <!--Leave Blank -->
                 </div>
                 <div class="back">
-                    <!-- back content -->
-                    back
+                    Now you See Me
                 </div>
             </div>
         </div>
@@ -80,5 +80,7 @@
         <div class="memorytile"></div>
     </div>
 </div>
-
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="myScripts.js"></script>
+</body>
 </html>
