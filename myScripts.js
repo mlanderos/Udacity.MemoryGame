@@ -1,6 +1,6 @@
 
-$('.flipper').click(function() {
+$('.card').click(function() {
     //$('.transform').toggleClass('transform-active');
     //$('.box').toggleClass('transform-active');
-    $(this).toggleClass('transform');
+    $(this).toggleClass('flipped');
   });
